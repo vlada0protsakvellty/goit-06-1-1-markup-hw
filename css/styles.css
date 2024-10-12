@@ -253,7 +253,7 @@ button {
   display: flex;
   flex-wrap: wrap;
   gap: 72px;
-  justify-content: center;
+  /* justify-content: center; */
   /* flex-direction: row; */
   /* gap: 24px; */
 }
@@ -276,10 +276,6 @@ button {
   text-align: left;
 }
 .description-text {
-  /*font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em; */
-  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -316,7 +312,7 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 24px;
+  /* gap: 24px; */
 }
 
 .team-list {
@@ -1077,11 +1073,30 @@ button {
 
   /* Strategy  768px*/
 
+  .title-sub {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+  }
+
   .properties-list {
     width: calc((100%-24px) / 2);
   }
   /* #End Strategy  768px*/
+
+  /* our team 768px */
+  .our-team-container {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .our-team-list {
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 72px;
+  }
 }
+/* #end regio our team */
 
 @media screen and (min-width: 1158px) {
   .container {
@@ -1154,12 +1169,36 @@ button {
 
 /* End Region Hero (section2) 1158px*/
 
-/* Sec3 Strategy 1158px */
+/* Sec Strategy 1158px */
+.features-list {
+  flex-wrap: nowrap;
+  justify-content: center;
+  flex-direction: row;
+  gap: 24px;
+}
 
-/* #End Sec3 Strategy 1158px */
+.properties-list-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  border: 1px solid #8e8f99;
+  margin-bottom: 8px;
+}
+
+.properties-list {
+  width: calc((100% - 72px) / 4);
+}
+
+/* #End  Strategy 1158px */
 
 /* Our Team 1158px*/
-
+.our-team-container {
+  padding-left: none;
+  padding-right: none;
+}
 /* #End Our Team 1158px*/
 
 /* Our Portfolio 1158px*/
