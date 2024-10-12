@@ -148,7 +148,7 @@
   <!-- #end header -->
   <main>
     <section class="effective section">
-      <div class="container">
+      <div class="container effective-container">
         <h1 class="effective-title">Effective Solutions for Your Business</h1>
         <button class="effective-btn" type="button">Order Service</button>
       </div>
@@ -214,6 +214,7 @@
         <ul class="our-team-list">
           <li class="team-list">
             <img
+              srcset="./images/mark-guerrero-2x.jpg 2x"
               src="./images/mark-guerrero.jpg"
               alt="Mark Guerrero"
               width="264"
@@ -273,6 +274,7 @@
 
           <li class="team-list">
             <img
+              srcset="./images/tom-ford-2x.jpg 2x"
               src="./images/tom-ford.jpg"
               alt="Tom Ford"
               width="264"
@@ -331,6 +333,7 @@
           </li>
           <li class="team-list">
             <img
+              srcset="./images/camila-garcia-2x.jpg 2x"
               src="./images/camila-garcia.jpg"
               alt="Camila Garcia"
               width="264"
@@ -389,6 +392,7 @@
           </li>
           <li class="team-list">
             <img
+              srcset="./images/daniel-wilson-2x.jpg 2x"
               src="./images/daniel-wilson.jpg"
               alt="Daniel Wilson"
               width="264"
@@ -448,12 +452,27 @@
         </ul>
       </div>
     </section>
+    <!-- our portfolio section -->
     <section class="section">
       <div class="container">
         <h2 class="team portfolio">Our Portfolio</h2>
         <ul class="portfolio-list">
           <li class="portfolio-properties">
             <div class="img-port">
+              <picture>
+                <source
+                  srcset="
+                    ./images/banking-app.jpg            1x,
+                    ./images/desctop-banking-2x-app.jpg 2x
+                  "
+                  media="(min-width: 1158px)"
+                />
+                <source
+                  srcset="./images/tab-banking-app.jpg 1x"
+                  media="(min-width: 768px)"
+                />
+              </picture>
+
               <img
                 src="./images/banking-app.jpg"
                 alt="Banking App"
