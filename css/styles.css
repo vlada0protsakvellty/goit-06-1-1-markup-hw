@@ -30,20 +30,26 @@ p {
 img {
   display: block;
 }
+picture {
+  flex-shrink: 0;
+  max-width: 100%;
+}
 
 button {
   cursor: pointer;
 }
 
 .container {
-  max-width: 1158px;
+  max-width: 320px;
   /* padding: 0 15px; */
   padding: 0 16px;
   margin: 0 auto;
 }
 .section {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  /* padding-top: 120px;
+  padding-bottom: 120px; */
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 .page-header {
   border-bottom: 1px solid #e7e9fc;
@@ -245,13 +251,14 @@ button {
 }
 .features-list {
   display: flex;
-  flex-direction: row;
+  flex-direction: wrap;
+  /* flex-direction: row; */
   justify-content: center;
-  gap: 24px;
+  /* gap: 24px; */
 }
-.properties-list {
+/* .properties-list {
   width: calc((100% - 72px) / 4);
-}
+} */
 .title-sub {
   font-weight: 500;
   font-size: 20px;
@@ -266,6 +273,10 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+.properties-list {
+  width: 100%;
+  margin-bottom: 72px;
 }
 .properties-list-icon {
   display: flex;
@@ -886,7 +897,7 @@ button {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: 434455;
+  color: #434455;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .media-mobile-list {
@@ -935,6 +946,11 @@ button {
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
+  }
+  .section {
+    /* не розмію як встановити падінги між  секціями */
+    /* padding-top: 96px;
+  padding-bottom: 96px; */
   }
 
   /* Region Header 768px*/
@@ -1013,11 +1029,7 @@ button {
 
   /* End Region Header 768px*/
 
-  /* Modal 768px */
-
-  /* #End Modal 768px */
-
-  /* Region Hero (section2) 768px*/
+  /* Region Hero  768px*/
   .effective-container {
     padding-top: 112px;
     padding-bottom: 112px;
@@ -1047,18 +1059,26 @@ button {
     line-height: 1.07;
     margin-bottom: 36px;
   }
-  /* End Region Hero (section2) 768px*/
+  /* End Region Hero  768px*/
 
   /* mobile menu */
   .mobile-menu {
     display: none;
   }
+
+  /* Strategy  768px*/
+
+  /* #End Strategy  768px*/
 }
 
 @media screen and (min-width: 1158px) {
   .container {
     max-width: 1158px;
     padding: 0 15px;
+  }
+  .section {
+    padding-top: 120px;
+    padding-bottom: 120px;
   }
   /* Region Header 1158px*/
   .burger-btn {
@@ -1093,7 +1113,7 @@ button {
   .effective-container {
     padding-top: 188px;
     padding-bottom: 188px;
-    max-width: 1158px;
+    max-width: 1440px;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
