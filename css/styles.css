@@ -628,13 +628,18 @@ button {
   top: 50%;
   left: 50%;
   border-radius: 4px;
-  width: 408px;
-  min-height: 584px;
+  /* width: 408px;
+  min-height: 584px; */
+  width: 208px;
+  min-height: 623px;
   transform: translate(-50%, -50%);
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12),
     0 2px 1px 0 rgba(0, 0, 0, 0.2);
   background-color: #fcfcfc;
-  padding: 72px 24px 24px 24px;
+  /* padding: 72px 24px 24px 24px; */
+  padding-top: 72px;
+  padding-left: 16px;
+  padding-right: 16px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -1118,55 +1123,62 @@ button {
     flex-direction: column;
     /* gap: 72px; */
   }
-}
-/* #end regio our team 768px*/
 
-/* Our Portfolio  768px*/
-.portfolio-container {
-  display: block;
-}
-.portfolio-list {
-  gap: 72px 24px;
-}
-.portfolio-properties {
-  width: calc((100% - 72px) / 2);
-}
+  /* #end regio our team 768px*/
 
-/* #End Our Portfolio 768px */
+  /* Our Portfolio  768px*/
+  .portfolio-container {
+    display: block;
+  }
+  .portfolio-list {
+    gap: 72px 24px;
+  }
+  .portfolio-properties {
+    width: calc((100% - 72px) / 2);
+  }
 
-/* Footer 768px */
-.page-footer {
-  padding: 96px 0;
-}
+  /* #End Our Portfolio 768px */
 
-.logo-media {
-  flex-direction: row;
-  gap: 72px 24px;
-  padding-left: 108px;
-  padding-right: 108px;
-  text-align: left;
-}
+  /* Footer 768px */
+  .page-footer {
+    padding: 96px 0;
+  }
 
-.footer-sub {
-  margin-left: auto;
-}
-.footer-text-email {
-  width: 264px;
-}
-.description-part {
-  width: 264px;
-}
-.footer-logo {
-  text-align: left;
-}
-.social-media {
-  text-align: left;
-}
-.sub-text {
-  text-align: left;
-}
-/* #End Footer 768px */
+  .logo-media {
+    flex-direction: row;
+    gap: 72px 24px;
+    padding-left: 108px;
+    padding-right: 108px;
+    text-align: left;
+  }
 
+  .footer-sub {
+    margin-left: auto;
+  }
+  .footer-text-email {
+    width: 264px;
+  }
+  .description-part {
+    width: 264px;
+  }
+  .footer-logo {
+    text-align: left;
+  }
+  .social-media {
+    text-align: left;
+  }
+  .sub-text {
+    text-align: left;
+  }
+  /* #End Footer 768px */
+  /*  Modal 1158px*/
+  .modal {
+    width: 408px;
+    min-height: 584px;
+    padding: 72px 24px 24px 24px;
+  }
+  /*  #End Modal 1158px*/
+}
 @media screen and (min-width: 1158px) {
   .container {
     max-width: 1158px;
@@ -1304,3 +1316,7 @@ button {
 }
 
 /* #End Footer 1158px*/
+
+/*  Modal 1158px*/
+
+/*  #End Modal 1158px*/
