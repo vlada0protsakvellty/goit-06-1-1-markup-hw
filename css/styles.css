@@ -379,11 +379,17 @@ button {
 /* #endregion section 3 */
 
 /* #region section 4 */
+.portfolio-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .portfolio-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
   color: #2e2f42;
   margin-bottom: 8px;
 }
@@ -403,18 +409,22 @@ button {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  gap: 48px 24px;
+  gap: 48px;
+  /* gap: 48px 24px; */
 }
 
 .portfolio-properties {
-  width: calc((100% - 48px) / 3);
+  /* width: calc((100% - 48px) / 3); */
+  width: 100%;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.portfolio-properties:hover {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
+
+/* .portfolio-properties:hover {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+} */
 
 .portfolio-properties:hover .portfolio-text {
   transform: translateY(0%);
@@ -1097,6 +1107,15 @@ button {
   }
 }
 /* #end regio our team */
+/* Our Portfolio  */
+.portfolio-container {
+  display: block;
+}
+.portfolio-list {
+  gap: 48px;
+}
+
+/* #End Our Portfolio  */
 
 @media screen and (min-width: 1158px) {
   .container {
@@ -1202,7 +1221,19 @@ button {
 /* #End Our Team 1158px*/
 
 /* Our Portfolio 1158px*/
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 24px;
+}
 
+.portfolio-properties {
+  width: calc((100% - 48px) / 3);
+}
+.portfolio-properties:hover {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
 /* #End Our Portfolio 1158px*/
 
 /* Footer 1158px*/
