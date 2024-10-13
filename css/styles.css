@@ -247,10 +247,23 @@ button {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+.features-container {
+  max-width: 318px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.properties-list:not(:last-child) {
+  margin-bottom: 72px;
+}
+
 .features-list {
   display: flex;
-  flex-wrap: wrap;
-  gap: 72px;
+  flex-direction: column;
+  row-gap: 72px;
   /* justify-content: center; */
   /* flex-direction: row; */
   /* gap: 24px; */
