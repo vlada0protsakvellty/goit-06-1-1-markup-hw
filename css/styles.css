@@ -677,6 +677,8 @@ button {
   transform: translate(-50%, -50%);
 }
 .modal-text {
+  display: flex;
+  flex-wrap: wrap;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -687,6 +689,13 @@ button {
   margin-bottom: 16px;
 }
 
+.custom-label-user-checkbox {
+  display: flex;
+  align-items: center;
+}
+.custom-checkbox {
+  flex-shrink: 0;
+}
 /* #endregion modal */
 
 /* #region form */
