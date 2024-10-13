@@ -461,20 +461,27 @@ button {
 /* #region footer */
 .page-footer {
   background-color: #2e2f42;
-  padding: 100px 0;
+  /* padding: 100px 0; */
 }
 .logo-media {
+  /* display: flex;
+  align-items: baseline; */
   display: flex;
-  align-items: baseline;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 72px;
 }
 .logo-container {
-  margin-right: 120px;
+  /* margin-right: 120px; */
+  margin-right: 102px; /*???? */
 }
 .description-part {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  max-width: 264px;
+  /* max-width: 264px; */
+  max-width: 288px;
+  align-items: center;
 }
 
 .footer-logo {
@@ -489,6 +496,7 @@ button {
   letter-spacing: 0.02em;
   color: #ffffff;
   margin-bottom: 16px;
+  align-items: center;
 }
 
 .social-list {
@@ -1106,16 +1114,29 @@ button {
     gap: 72px;
   }
 }
-/* #end regio our team */
-/* Our Portfolio  */
+/* #end regio our team 768px*/
+/* Our Portfolio  768px*/
 .portfolio-container {
   display: block;
 }
 .portfolio-list {
-  gap: 48px;
+  gap: 72px 24px;
+}
+.portfolio-properties {
+  width: calc((100% - 72px) / 2);
 }
 
-/* #End Our Portfolio  */
+/* #End Our Portfolio 768px */
+
+/* Footer 768px */
+.page-footer {
+  padding: 96px 0;
+}
+
+.logo-media {
+}
+
+/* #End Footer 768px */
 
 @media screen and (min-width: 1158px) {
   .container {
@@ -1237,5 +1258,9 @@ button {
 /* #End Our Portfolio 1158px*/
 
 /* Footer 1158px*/
-
+.page-footer {
+  padding: 100px 0;
+}
+.logo-media {
+}
 /* #End Footer 1158px*/
