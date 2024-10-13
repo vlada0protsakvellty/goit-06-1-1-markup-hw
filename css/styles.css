@@ -308,10 +308,16 @@ button {
   color: #2e2f42;
   margin-bottom: 72px;
 }
+.our-team-container {
+  padding: 96px 28px;
+}
+
 .our-team-list {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  gap: 72px;
   /* gap: 24px; */
 }
 
@@ -471,17 +477,16 @@ button {
   align-items: center;
   gap: 72px;
 }
-.logo-container {
-  /* margin-right: 120px; */
-  margin-right: 102px; /*???? */
-}
+/* .logo-container {
+   margin-right: 120px;
+  
+} */
 .description-part {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
   /* max-width: 264px; */
   max-width: 288px;
-  align-items: center;
 }
 
 .footer-logo {
@@ -496,7 +501,6 @@ button {
   letter-spacing: 0.02em;
   color: #ffffff;
   margin-bottom: 16px;
-  align-items: center;
 }
 
 .social-list {
@@ -535,7 +539,8 @@ button {
 }
 
 .footer-sub {
-  margin-left: auto;
+  /* margin-left: auto; */
+  margin: auto;
 }
 
 .footer-form-label {
@@ -544,7 +549,8 @@ button {
 }
 
 .footer-text-email {
-  width: 264px;
+  /* width: 264px; */
+  width: 288px;
   height: 40px;
   border-radius: 4px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
@@ -971,7 +977,6 @@ button {
     max-width: 768px;
   }
   .section {
-    /* не розмію як встановити падінги між  секціями */
     /* padding-top: 96px;
   padding-bottom: 96px; */
   }
@@ -1105,16 +1110,17 @@ button {
 
   /* our team 768px */
   .our-team-container {
-    padding-left: 12px;
-    padding-right: 12px;
+    padding-left: 108px;
+    padding-right: 108px;
   }
   .our-team-list {
     justify-content: flex-start;
     flex-direction: column;
-    gap: 72px;
+    /* gap: 72px; */
   }
 }
 /* #end regio our team 768px*/
+
 /* Our Portfolio  768px*/
 .portfolio-container {
   display: block;
@@ -1134,8 +1140,31 @@ button {
 }
 
 .logo-media {
+  flex-direction: row;
+  gap: 72px 24px;
+  padding-left: 108px;
+  padding-right: 108px;
+  text-align: left;
 }
 
+.footer-sub {
+  margin-left: auto;
+}
+.footer-text-email {
+  width: 264px;
+}
+.description-part {
+  width: 264px;
+}
+.footer-logo {
+  text-align: left;
+}
+.social-media {
+  text-align: left;
+}
+.sub-text {
+  text-align: left;
+}
 /* #End Footer 768px */
 
 @media screen and (min-width: 1158px) {
@@ -1262,5 +1291,16 @@ button {
   padding: 100px 0;
 }
 .logo-media {
+  display: flex;
+  align-items: baseline;
+  gap: 0;
 }
+.logo-container {
+  margin-right: 120px;
+}
+
+.footer-sub {
+  margin-left: auto;
+}
+
 /* #End Footer 1158px*/
