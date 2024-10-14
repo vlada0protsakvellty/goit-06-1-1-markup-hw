@@ -270,6 +270,7 @@ button {
 }
 
 .media-list-team {
+  max-width: 264px;
   display: flex;
   justify-content: center;
   flex-direction: row;
