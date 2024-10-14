@@ -692,10 +692,13 @@ button {
 
 .custom-label-user-checkbox {
   display: flex;
-  align-items: center;
 }
 .custom-checkbox {
   flex-shrink: 0;
+}
+.custom-checkbox-titel {
+  display: flex;
+  align-items: center;
 }
 /* #endregion modal */
 
@@ -705,6 +708,7 @@ button {
   margin-bottom: 8px;
 }
 .modal-form-label {
+  width: 256px;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
