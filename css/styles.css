@@ -692,14 +692,12 @@ button {
 
 .custom-label-user-checkbox {
   display: flex;
+  align-items: center;
 }
 .custom-checkbox {
   flex-shrink: 0;
 }
-.custom-checkbox-titel {
-  display: flex;
-  align-items: center;
-}
+
 /* #endregion modal */
 
 /* #region form */
