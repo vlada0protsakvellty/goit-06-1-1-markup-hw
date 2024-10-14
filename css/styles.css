@@ -305,11 +305,25 @@ button {
 
 /* #endregion section 3 */
 /* #region portfolio section 4 */
+
+.portfolio-section {
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
 .portfolio-container {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+.portfolio {
+  margin-bottom: 72px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
 .portfolio-title {
   font-weight: 500;
   font-size: 20px;
@@ -324,10 +338,6 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-}
-
-.portfolio {
-  margin-bottom: 72px;
 }
 
 .portfolio-list {
