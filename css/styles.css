@@ -105,10 +105,10 @@ button {
   overflow: hidden;
 }
 
-.features-section {
+/* .features-section {
   padding-top: 96px;
   padding-bottom: 96px;
-}
+} */
 
 .properties-list:not(:last-child) {
   margin-bottom: 72px;
