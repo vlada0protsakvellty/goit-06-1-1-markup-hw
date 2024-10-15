@@ -476,8 +476,6 @@ button {
 }
 
 .footer-sub {
-  display: flex;
-  flex-direction: column;
   margin: auto;
 }
 
@@ -517,6 +515,7 @@ button {
   min-width: 165px;
   height: 40px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   font-weight: 500;
