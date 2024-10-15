@@ -476,6 +476,8 @@ button {
 }
 
 .footer-sub {
+  display: flex;
+  flex-wrap: wrap;
   margin: auto;
 }
 
