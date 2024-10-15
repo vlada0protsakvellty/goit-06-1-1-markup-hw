@@ -415,6 +415,11 @@ button {
   gap: 72px;
 }
 
+.block-modal-container {
+  display: flex;
+  flex-direction: column;
+}
+
 .description-part {
   line-height: 1.5;
   letter-spacing: 0.02em;
