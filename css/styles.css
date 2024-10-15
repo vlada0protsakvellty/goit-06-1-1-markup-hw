@@ -477,7 +477,7 @@ button {
 
 .footer-sub {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   margin: auto;
 }
 
