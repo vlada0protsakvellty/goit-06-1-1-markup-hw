@@ -307,6 +307,7 @@ button {
 /* #region portfolio section 4 */
 
 .portfolio-section {
+  padding-top: 96px;
   padding-bottom: 96px;
 }
 .portfolio-container {
@@ -346,6 +347,9 @@ button {
   align-items: center;
   justify-content: center;
   width: 288px;
+}
+
+.portfolio-list:not(:last-child) {
   gap: 48px;
 }
 
