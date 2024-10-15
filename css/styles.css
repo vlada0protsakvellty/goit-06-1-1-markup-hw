@@ -527,7 +527,7 @@ button {
 }
 /* #end region footer */
 /* region mobile menu */
-.mobile-menu {
+/* .mobile-menu {
   position: fixed;
   top: 0;
   left: 0;
@@ -661,5 +661,5 @@ button {
 
 .nav-mobile-link.current {
   color: #4d5ae5;
-}
+} */
 /* #end region mobile menu */
