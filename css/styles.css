@@ -876,10 +876,6 @@ button {
   flex-direction: column;
   gap: 24px;
 }
-.contacts-mobile-list:hover,
-.contacts-mobile-list:focus {
-  color: #4d5ae5;
-}
 
 .contacts-mobile-link {
   display: block;
