@@ -404,6 +404,7 @@ button {
 /* #region footer */
 .page-footer {
   padding-top: 96px;
+  padding-bottom: 96px;
   background-color: #2e2f42;
 }
 .logo-media {
@@ -476,8 +477,6 @@ button {
 }
 
 .footer-sub {
-  display: flex;
-  flex-wrap: wrap;
   margin: auto;
 }
 
@@ -517,6 +516,7 @@ button {
   min-width: 165px;
   height: 40px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   font-weight: 500;
