@@ -1065,16 +1065,19 @@ button {
   /* Strategy  768px*/
 
   .features-container {
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
   }
   .features-list {
     gap: 72px 24px;
   }
 
   .title-sub {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
     letter-spacing: 0.02em;
   }
 
