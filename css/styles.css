@@ -92,7 +92,7 @@ button {
   display: none;
 }
 .burger-btn {
-  border-radius: none;
+  border: none;
 }
 
 /* #endregion header */
@@ -351,7 +351,6 @@ button {
   align-items: center;
   justify-content: center;
   width: 288px;
-  gap: 48px;
 }
 
 .portfolio-list:not(:last-child) {
