@@ -367,18 +367,17 @@ button {
 }
 
 .img-port {
-  position: relative;
   overflow: hidden;
 }
 
-.portfolio-properties .img-port {
+/* .portfolio-properties .img-port {
   height: 280px;
 }
 
 .portfolio-properties .img-port img {
   width: 288px;
   height: 280px;
-}
+} */
 
 .portfolio-content {
   padding: 32px 16px;
@@ -793,7 +792,7 @@ button {
 
 /* mobile menu */
 
-.mobile-menu {
+/* .mobile-menu {
   position: fixed;
   top: 0;
   left: 0;
@@ -934,6 +933,6 @@ button {
 
 .nav-mobile-link.current {
   color: #4d5ae5;
-}
+} */
 
 /* #end  mobile menu */
