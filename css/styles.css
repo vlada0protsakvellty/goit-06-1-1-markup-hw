@@ -93,6 +93,7 @@ button {
 }
 .burger-btn {
   border: none;
+  background-color: transparent;
 }
 
 /* #endregion header */
@@ -186,9 +187,9 @@ button {
   padding-bottom: 96px;
 }
 
-.properties-list:not(:last-child) {
+/* .properties-list:not(:last-child) {
   margin-bottom: 72px;
-}
+} */
 
 .features-list {
   display: flex;
@@ -351,6 +352,7 @@ button {
   align-items: center;
   justify-content: center;
   width: 288px;
+  gap: 48px;
 }
 
 .portfolio-list:not(:last-child) {
