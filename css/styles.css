@@ -91,6 +91,9 @@ button {
 .contacts {
   display: none;
 }
+.burger-btn {
+  border-radius: none;
+}
 
 /* #endregion header */
 
