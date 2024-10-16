@@ -348,11 +348,11 @@ button {
   align-items: center;
   justify-content: center;
   width: 288px;
-  margin-bottom: 48px;
+  gap: 48px;
 }
 
 .portfolio-list:not(:last-child) {
-  margin-bottom: 48px;
+  gap: 48px;
 }
 
 .portfolio-properties {
