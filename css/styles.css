@@ -29,6 +29,8 @@ p {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 picture {
   flex-shrink: 0;
@@ -549,7 +551,7 @@ button {
 
 /* #end region footer */
 /* region modal */
-/* .backdrop {
+.backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -641,7 +643,7 @@ button {
 }
 .custom-checkbox {
   flex-shrink: 0;
-} */
+}
 
 /* #endregion modal */
 
