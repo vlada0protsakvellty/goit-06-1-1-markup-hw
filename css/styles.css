@@ -1064,6 +1064,13 @@ button {
 
   /* Strategy  768px*/
 
+  .features-container {
+    display: block;
+  }
+  .features-list {
+    gap: 72px 24px;
+  }
+
   .title-sub {
     font-weight: 500;
     font-size: 20px;
