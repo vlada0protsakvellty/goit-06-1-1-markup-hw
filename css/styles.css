@@ -1058,12 +1058,11 @@ button {
   }
   /* End Region Hero  768px*/
 
-  /* mobile menu */
-  .mobile-menu {
-    display: none;
-  }
-
   /* Strategy  768px*/
+  .features-container {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
 
   .title-sub {
     font-weight: 500;
@@ -1081,6 +1080,8 @@ button {
   .our-team-container {
     padding-left: 108px;
     padding-right: 108px;
+    padding-top: 96px;
+    padding-bottom: 96px;
   }
   .our-team-list {
     justify-content: flex-start;
