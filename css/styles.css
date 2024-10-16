@@ -1025,6 +1025,9 @@ button {
   }
 
   /* End Region Header 768px*/
+  .mobile-menu {
+    display: none;
+  }
 
   /* Region Hero  768px*/
   .effective-container {
@@ -1052,6 +1055,7 @@ button {
   }
 
   .effective-title {
+    max-width: 496px;
     font-size: 56px;
     line-height: 1.07;
     margin-bottom: 36px;
