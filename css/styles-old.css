@@ -1117,6 +1117,9 @@ button {
     flex-direction: column;
     /* gap: 72px; */
   }
+  .team-list {
+    width: calc((100%-24px) / 2);
+  }
 
   /* #end regio our team 768px*/
 

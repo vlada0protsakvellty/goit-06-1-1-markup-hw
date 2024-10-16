@@ -551,7 +551,7 @@ button {
 
 /* #end region footer */
 /* region modal */
-.backdrop {
+/* .backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -643,13 +643,13 @@ button {
 }
 .custom-checkbox {
   flex-shrink: 0;
-}
+} */
 
 /* #endregion modal */
 
 /* #region form */
 
-.form-wrraper-cont {
+/* .form-wrraper-cont {
   margin-bottom: 8px;
 }
 .modal-form-label {
@@ -794,7 +794,7 @@ button {
 .modal-submit:focus {
   color: #fff;
   background-color: #404bbf;
-}
+} */
 
 /* #endregion form */
 
