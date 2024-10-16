@@ -1063,10 +1063,6 @@ button {
   /* End Region Hero  768px*/
 
   /* Strategy  768px*/
-  .features-container {
-    padding-top: 96px;
-    padding-bottom: 96px;
-  }
 
   .title-sub {
     font-weight: 500;
@@ -1084,12 +1080,11 @@ button {
   .our-team-container {
     padding-left: 108px;
     padding-right: 108px;
-    padding-top: 96px;
-    padding-bottom: 96px;
   }
   .our-team-list {
+    display: flex;
     justify-content: flex-start;
-    flex-direction: column;
+    flex-wrap: wrap;
     /* gap: 72px; */
   }
   .team-list {
