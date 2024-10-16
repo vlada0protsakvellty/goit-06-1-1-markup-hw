@@ -799,7 +799,7 @@ button {
 /* #endregion form */
 
 /* mobile menu */
-
+/* 
 .mobile-menu {
   position: fixed;
   top: 0;
@@ -941,6 +941,201 @@ button {
 
 .nav-mobile-link.current {
   color: #4d5ae5;
-}
+} */
 
 /* #end  mobile menu */
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+
+  /* Region Header 768px*/
+  .burger-btn {
+    display: none;
+  }
+
+  .nav-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .contacts {
+    font-style: normal;
+    display: block;
+  }
+
+  .header-nav {
+    display: flex;
+    align-items: center;
+  }
+
+  .header-logo {
+    padding: 24px 0;
+    margin-right: 120px;
+  }
+
+  .nav-link.current {
+    position: relative;
+  }
+
+  .nav-link.current::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #404bbf;
+  }
+
+  .nav-link {
+    display: block;
+    padding: 24px 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .contacts-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .contacts-link {
+    display: block;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: #434455;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .nav-link:hover,
+  .nav-link:focus,
+  .contacts-link:hover,
+  .contacts-link:focus,
+  .nav-link.current {
+    color: #404bbf;
+  }
+
+  /* End Region Header 768px*/
+
+  /* Region Hero  768px*/
+  .effective-container {
+    padding-top: 112px;
+    padding-bottom: 112px;
+    max-width: 768px;
+
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/tab-hero-bg.jpg);
+  }
+
+  @media screen and (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 2dppx),
+    (min-resolution: 192dpi) {
+    .effective-container {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/tab-dark-2x-bg.jpg);
+    }
+  }
+
+  .effective-title {
+    font-size: 56px;
+    line-height: 1.07;
+    margin-bottom: 36px;
+  }
+  /* End Region Hero  768px*/
+
+  /* mobile menu */
+  .mobile-menu {
+    display: none;
+  }
+
+  /* Strategy  768px*/
+
+  .title-sub {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+  }
+
+  .properties-list {
+    width: calc((100%-24px) / 2);
+  }
+  /* #End Strategy  768px*/
+
+  /* our team 768px */
+  .our-team-container {
+    padding-left: 108px;
+    padding-right: 108px;
+  }
+  .our-team-list {
+    justify-content: flex-start;
+    flex-direction: column;
+    /* gap: 72px; */
+  }
+  .team-list {
+    width: calc((100%-24px) / 2);
+  }
+
+  /* #end regio our team 768px*/
+
+  /* Our Portfolio  768px*/
+  .portfolio-container {
+    display: block;
+  }
+  .portfolio-list {
+    gap: 72px 24px;
+  }
+  .portfolio-properties {
+    width: calc((100% - 72px) / 2);
+  }
+
+  /* #End Our Portfolio 768px */
+
+  /* Footer 768px */
+  .page-footer {
+    padding: 96px 0;
+  }
+
+  .logo-media {
+    flex-direction: row;
+    gap: 72px 24px;
+    padding-left: 108px;
+    padding-right: 108px;
+    text-align: left;
+  }
+
+  .footer-sub {
+    margin-left: auto;
+  }
+  .footer-text-email {
+    width: 264px;
+  }
+  .description-part {
+    width: 264px;
+  }
+  .footer-logo {
+    text-align: left;
+  }
+  .social-media {
+    text-align: left;
+  }
+  .sub-text {
+    text-align: left;
+  }
+}
+/* #End Footer 768px */
